@@ -1,0 +1,87 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.footer .icon-link {
+  font-size: 25px;
+  color: #000;
+}
+
+.dnerf {
+  font-variant: small-caps;
+}
+
+.teaser .hero-body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+.teaser {
+  font-family: 'Google Sans', sans-serif;
+}
+
+.publication-authors a {
+  color: hsl(204, 86%, 53%);
+}
+
+.publication-authors a:hover {
+  text-decoration: underline;
+}
+
+.author-block {
+  display: inline-block;
+}
+
+.results-carousel video {
+  height: 230px;
+  object-fit: cover;
+}
+
+.interpolation-panel .slider {
+  margin: 0 !important;
+}
+
+#interpolation-image-wrapper img {
+  border-radius: 5px;
+}
+
+/* Custom styles for video containers */
+.video-container {
+  width: 100%;
+  height: auto;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+}
+
+/* Ensure carousel items are displayed correctly */
+.carousel .item {
+  margin: 10px;
+  flex: 0 0 auto;
+}
+
+.carousel .item video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Grid layout for video comparisons */
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.comparison-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comparison-video {
+  width: auto;
+  height: 100%;
+}

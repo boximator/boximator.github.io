@@ -1,2 +1,2 @@
 # boximator.github.io
-Website code for Boximator: Generating Rich and Dynamic Motions for Video Synthesis
+Boximator: Generating Rich and Controllable Motions for Video Synthesis
