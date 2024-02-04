@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -19,10 +20,10 @@
       </div>
       <div class="container has-text-centered">
         <h1 class="title is-1 publication-title">
-          Boximator:
+          <span style="font-family:Georgia">Boximator:</span>
         </h1>
         <h3 class="title is-3 publication-title">
-          Generating Rich and Controllable Motions for Video Synthesis
+          <span style="font-family:Georgia">Generating Rich and Controllable Motions for Video Synthesis</span>
         </h3>
         <div class="is-size-5 publication-authors">
           <div class="author-block">Jiawei Wang*, </div>
@@ -39,6 +40,7 @@
           <span class="author-block">&nbsp&nbsp<sup>*</sup>Equal Contribution</span>
         </div>
 
+
         <div class="column has-text-centered">
           <div class="publication-links">
             <!-- PDF Link. -->
@@ -51,6 +53,27 @@
                   <span>arXiv</span>
                 </a>
             </span>
+
+            <!-- Demo Link. -->
+            <span class="link-block">
+              <a href="#Demo"
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="fa fa-desktop"></i>
+                </span>
+                <span>Demo</span>
+              </a>
+            </span>
+
+            <!-- Cite Link. -->
+            <span class="link-block">
+              <a href="#BibTeX"
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="fa fa-quote-left"></i>
+                </span>
+                <span>Cite</span>
+              </a>
         </div>
       </div>
     </div>
@@ -91,9 +114,9 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <h2 class="title is-2, columns is-centered">Examples</h2>
+    <h2 class="title is-2, columns is-centered"><span style="font-family:Georgia">Examples</span></h2>
     <div align="right">
-    <td width=25% style="text-align:center;">Base Model: <a href="https://makepixelsdance.github.io">PixelDance</a></td>
+    <td width=25% style="text-align:center;"><span style="font-family:Georgia">Base Model: <a href="https://makepixelsdance.github.io"><span style="font-family:Georgia">PixelDance</a></span></td>
     </div>
     <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=#987cb9 SIZE=3>
     <!-- <hr>
@@ -339,7 +362,7 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <h2 class="title is-2, columns is-centered">Comparisons with Other Methods</h2>
+    <h2 class="title is-2, columns is-centered"><span style="font-family:Georgia">Comparisons with Other Methods</span></h2>
     <div align="left">
     <td width=25% style="text-align:center;"><b>Note</b>: Pika and Gen-2 use image and text conditions; Boximator uses additional box constraints derived from the text prompt.</td>
   </div>
@@ -466,12 +489,46 @@
             </tr>
           </table>
         <br>
-
-        
-      <br>
 </section>
 
+<section class="section" id="Demo">
+  <div class="container is-max-desktop">
+    <h2 class="title is-2, columns is-centered"><span style="font-family:Georgia">Try It Yourself</span></h2>
+    <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=#987cb9 SIZE=3>
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <div class="content has-text-justified">
+              <p>
+                Our demo website is under development and will be available in the next 2-3 months. Before that, we have prepared an early experience channel for everyone. You can try <b>Boximator</b> by emailing <code>wangjiawei.424@bytedance.com<a href="mailto:wangjiawei.424@bytedance.com"><span class="icon"><i class="fa fa-envelope"></i></span></a></code>. We will reply to you with the generated video as soon as possible.<br>
+                
+                <div>
+                Users' email should include:
+                <ul>
+                  <li>An <i>image</i> as the initial frame</li>
+                  <li>A <i>text prompt</i> to describe the motion you need</li>
+                </ul>
+                </div>
+                <br>
+                <blockquote>
+                  <span class="icon"><i class="fa fa-hand-o-right" style="font-size:24px;"></i></span> </i><b>Tips</b>:
+                  <div>
+                    <ul>
+                      <li>Please send us a clean original image. The aspect ratio of the image is preferably <strong>1:1</strong>.</li>
+                      <li>You are encouraged to use detailed words to describe your needs, especially about the motion. Don't worry about being lengthy. ^_^ </li>
+                      <li>We assumed that users allow we make the data thet provide and the according generated video public in our gallery. Otherwise, please indicate this in the email.</li>
+                      <li>Please do not send any images or texts that may be pornographic, political, bloody, etc.</li>
+                  </ul>
+                </blockquote>
+                <br>
+                <span style="font-family:Georgia;font-size:20px;">Don't hesitate to contact us, we look forward to <b>Boximator</b> colliding with your imagination to create unique sparks!</span>
+              </p>
+            </div>
+          </div>
+        </div>
+  </div>
 
+</section>
 <section class="section" id="BibTeX">
   <div class="container content is-max-desktop">
     <h2 class="title">BibTeX</h2>
